@@ -91,3 +91,62 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+/* ========== Responsive Design for Mobile ========== */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .header-right {
+    margin-top: 1rem;
+  }
+
+  .header-right img {
+    width: 80px;
+    margin-top: 1rem;
+  }
+
+  nav {
+    margin-top: 1rem;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 0.5rem 0.7rem;
+    font-size: 1rem;
+  }
+
+  section {
+    margin: 1rem;
+    padding: 1.2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  .project-card {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  footer {
+    padding: 1.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  footer p, footer a {
+    display: block;
+    margin: 0.3rem 0;
+  }
+}
